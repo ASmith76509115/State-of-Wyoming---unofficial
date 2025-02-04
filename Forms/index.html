@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of Wyoming</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .horizontal-scroll {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        .horizontal-scroll a {
+            display: inline-block;
+            padding: 10px 20px;a
+            margin: 0 5px;
+            text-decoration: none;
+            color: #333;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .horizontal-scroll a:hover {
+            background-color: #ccc;
+        }
+
+        .main-container {
+            background-image: url('Home_images/ai_image_1021314_24093524.png'); /* Reference for background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+    <div class="navbar-left">
+        <img src="Home_images/personal_wyoming_state_logo-removebg-preview.png" alt="State Of Wyoming" class="logo">
+        <span class="navbar-text">State of Wyoming</span>
+    </div>
+	<!-- Header Banner -->
+<div class="header-video">
+    <video autoplay muted loop class="header-video">
+        <source src="Home_images/video_preview_h264.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="banner-content">
+        
+    </div>
+</div>
+
+</div>
+
+    
+	</header>
+
+
+    <!-- Header Banner -->
+    
+
+    
+
+    <!-- Horizontal Scroll Bar -->
+    <div class="horizontal-scroll">
+        <a id="home-btn" href="../index.html">Home</a>
+        
+        
+    </div>
+
+    <main class="main-container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+			
+            <a href="#">Home</a> 
+        </div>
+		
+     <section class="form-container">
+            <form id="registration-form">
+                <h2>Survey</h2>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="confirm-email">Confirm Email Address:</label>
+                <input type="email" id="confirm-email" name="confirm-email" required>
+
+                <label for="question">Your Feedback:</label>
+                <textarea id="question" name="question" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>   
+
+    </main>
+	
+    <footer>
+        <p>&copy; 2025 3D Store. All Rights Reserved.</p>
+    </footer>
+	<footer>
+    
+    <div class="custom-footer">
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: support@quietusestate.com</p>
+            <p>Chat: <a href="#">Start Chat</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>FAQ</h3>
+            <ul>
+                <li><a href="#">History</a></li>
+				<li><a href="#">Mayor</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Blog</h3>
+            <ul>
+                <li><a href="#">Cool places to go to</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Cultural Icons</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
