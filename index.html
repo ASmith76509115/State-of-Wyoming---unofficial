@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of Wyoming</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .horizontal-scroll {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        .horizontal-scroll a {
+            display: inline-block;
+            padding: 10px 20px;a
+            margin: 0 5px;
+            text-decoration: none;
+            color: #333;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .horizontal-scroll a:hover {
+            background-color: #ccc;
+        }
+
+        .main-container {
+            background-image: url('Home_images/ai_image_1021314_24093524.png'); /* Reference for background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+    <div class="navbar-left">
+        <img src="Home_images/personal_wyoming_state_logo-removebg-preview.png" alt="State Of Wyoming" class="logo">
+        <span class="navbar-text">State of Wyoming</span>
+    </div>
+	<!-- Header Banner -->
+<div class="header-video">
+    <video autoplay muted loop class="header-video">
+        <source src="Home_images/video_preview_h264.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="banner-content">
+        
+    </div>
+</div>
+
+</div>
+
+    <input type="text" placeholder="Search for assets">
+	</header>
+
+
+    <!-- Header Banner -->
+    
+
+    <!-- Navigation Buttons -->
+    <nav class="top-nav">
+    <a href="Forms/index.html">Survey</a>
+    <a href="Landmarks/index.html">Landmarks</a>
+    <a href="https://travelwyoming.com/events/" target="_blank" rel="noopener noreferrer">Current Events</a>
+</nav>
+
+
+    <!-- Horizontal Scroll Bar -->
+    <div class="horizontal-scroll">
+        <a href="#home">Home</a>
+        <a id="cheyenne-btn" href="Cheyenne/index.html">Cheyenne</a>
+		<a id="laramie-btn" href="Laramie/index.html">Laramie</a>
+		<a id="torrington-btn" href="Torrington/index.html">Torrington</a>
+		
+        
+    </div>
+
+    <main class="main-container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+			
+            <a href="#">Home</a> 
+        </div>
+		
+        <!-- Product Section -->
+        <section class="product">
+            <div class="video-section">
+                <div class="main-video">
+                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/5XUCkkPbtPM?si=VWUF9H_40T6E3Svf" frameborder="0" allowfullscreen></iframe>
+                </div>
+				
+                <div class="thumbnails">
+                    <img src="Home_images/bison-1630310_1280.jpg" alt="Thumbnail 1">
+                    <img src="Home_images/pexels-leif-blessing-22994545-15088313.jpg" alt="Thumbnail 2">
+                    <img src="Home_images/yang-rC-8GsRGL1Q-unsplash.jpg" alt="Thumbnail 3">
+                    <img src="Home_images/mountains-4693731_1280.jpg" alt="Thumbnail 4">
+                    <img src="Home_images/mountain-7274247_1280.jpg" alt="Thumbnail 5">
+                    <img src="Home_images/bison-invitation-db11032b5056b36_db110457-5056-b365-ab01f1c7312f2a16.jpg" alt="Thumbnail 6">
+                    <img src="Home_images/wyoming-3957235_1280.jpg" alt="Thumbnail 7">
+                </div>
+            </div>
+		
+			
+</div>
+
+            
+        </section>
+		
+		
+		<section class="vertical-nav">
+    <div class="city_thumbnails">
+	<div class="vertical-nav">
+	<div class="vertical-nav button">
+	<a href="Laramie/index.html">
+        <div class="thumbnail" onclick="navigateTo('Laramie')">
+            <img src="Home_images/downtown.jpg" alt="Laramie Thumbnail">
+            <h2>Laramie</h2>
+        </div>
+	</a>
+        <a href="Cheyenne/index.html">
+    <div class="thumbnail">
+        <img src="Home_images/Cheyenne_resized2.jpg" alt="Cheyenne Thumbnail">
+        <h2>Cheyenne</h2>
+    </div>
+    </a>
+    <a href="Torrington/index.html">   
+		<div class="thumbnail" onclick="navigateTo('Torrington')">
+            <img src="Home_images/torrington-wy-133x200.jpg" alt="Torrington Thumbnail">
+            <h2>Torrington</h2>
+        </div>
+	</a>	
+        <div class="thumbnail" onclick="navigateTo('Gillette')">
+            <img src="Home_images/Gillete_resized.jpg" alt="Gillette Thumbnail">
+            <h2>Gillette</h2>
+        </div>
+        <div class="thumbnail" onclick="navigateTo('Sheridan')">
+            <img src="Home_images/sheridan_resized.jpg" alt="Sheridan Thumbnail">
+            <h2>Sheridan</h2>
+        </div>
+    </div>
+	</div>
+	
+</section>
+
+		<section class="intro">
+    <div class="intro-content">
+        
+		<h1 id="main-header">Welcome to the Great State of Wyoming</h1>
+        <p>Welcome to Wyoming, a land of unmatched beauty, rich heritage, and resilient spirit. More than just a location, Wyoming embodies the heart of the American West, where breathtaking landscapes meet the grit and determination of its people.</p>
+        <p>From sweeping plains to the majestic peaks of the Tetons, Wyoming is home to natural wonders that captivate visitors from around the globe. As the proud host of Yellowstone National Park, the world's first national park, and Devil’s Tower, the nation’s first national monument, Wyoming stands as a testament to the enduring commitment to preserving the splendor of our environment.</p>
+        <p>But Wyoming’s greatness isn’t just about its stunning scenery—it’s about its people. Hardworking, innovative, and proud, our communities are united by a shared purpose and a dedication to supporting one another. From pioneering industries in energy, agriculture, and technology to our ranchers and farmers who provide the backbone of our nation's food supply, Wyoming is a place of progress and tradition.</p>
+		<p>As we celebrate our rich history and cherish our lands, we invite you to explore all that Wyoming has to offer. Whether you’re drawn to our open skies, vibrant communities, or boundless opportunities, Wyoming is a beacon of promise and pride for all.</p>
+		<p>Welcome to Wyoming—where the spirit of the West lives on.</p>
+		<aside class="sidebar">
+    <h2>Did You Know?</h2>
+    <p>Wyoming was the first state to grant women the right to vote in 1869!</p>
+    <p>Home to Yellowstone, the world’s first national park.</p>
+    <p>Devil’s Tower was the first U.S. National Monument, established in 1906.</p>
+</aside>
+    </div>
+	
+</section>
+<aside class="sidebar">
+    <h2>Did You Know?</h2>
+    <p>Wyoming was the first state to grant women the right to vote in 1869!</p>
+    <p>Home to Yellowstone, the world’s first national park.</p>
+    <p>Devil’s Tower was the first U.S. National Monument, established in 1906.</p>
+</aside>
+    </main>
+
+    <footer>
+    <p>&copy; 2025 3D Store. All Rights Reserved.</p>
+</footer>
+
+<footer>
+    <div class="custom-footer">
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: support@quietusestate.com</p>
+            <p>Chat: <a href="#">Start Chat</a></p>
+        </div>
+        <div class="footer-section.blog">
+            <h3>Landmarks</h3>
+            <ul>
+                <li>Popular Sites
+                    <ul>
+                        <li><a href="#">Yellowstone</a></li> <!-- This will now be a bullet point -->
+						<li><a href="#">Devil's Tower</a>
+						<li><a href="#">Fort Laramie</a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+		<div class="footer-section blog">
+    <h3 class="blog-title">Blog</h3>
+    <ol> 
+        <li><a href="#">How was your visit?</a></li>
+        <li><a href="#">Where did you go?</a></li>
+        <li><a href="#">How long did you stay?</a></li>
+    </ol>
+</div>
+
+		
+        
+</footer>
+
+
+</body>
+</html>
