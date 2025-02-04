@@ -1,0 +1,492 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #d3d3d3; /* Light gray */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000; /* Switch to black text for better contrast */
+}
+
+
+
+/*.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e6e6; /* Adjust the background color */
+    /*padding: 10px 20px;
+}*/
+
+/* Navbar container for logo and text */
+.navbar-left {
+    display: flex;
+    align-items: center; /* Align logo and text vertically */
+    gap: 10px; /* Add space between logo and text */
+}
+
+/* Logo style */
+.navbar .logo {
+    height: 100px; /* Adjust the height to fit your header */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Navbar text style */
+.navbar-text {
+    font-family: 'Brush Script MT', sans-serif; /* Set the desired font */
+    font-size: 75px; /* Set the desired font size */
+    color: #fff; /* Match the navbar text color */
+    margin: 0; /* Remove unnecessary margins */
+}
+
+input[type="text"] {
+    margin-left: auto; /* Push the search bar to the right */
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Top Navigation Buttons */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1e1e1e;
+    padding: 10px 0;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    padding: 10px 40px;
+    color: #bbb;
+}
+
+.breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Font Styling for "Virtual Void Interactive" */
+.navbar h1 {
+    font-family: 'Courier New', Courier, monospace; /* Example font */
+    font-size: 3rem; /* Adjust the size */
+    color: #f0db4f; /* Change the color (optional) */
+    font-weight: bold; /* Make it bold */
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+    position: relative; /* Keeps it on top of content */
+    z-index: 10; /* Ensures it stays above other elements */
+}
+
+/* Style for the logo in the navbar */
+.navbar .logo {
+    height: 150px; /* Reduce height to make the navbar smaller */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add spacing between logo and search bar */
+}
+
+/* Background for Main Section */
+/* Background for Main Section */
+.main-container {
+    background-image: url('Home_images/ai_image_1021314_24093524.png');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    height: 1200px; /* Taller container for more visibility */
+}
+
+
+/* Optional: Ensure main-container content doesn't overlap */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scroll if the content is wide */
+}
+
+
+/* Font Styling for Banner Text */
+.header-banner .banner-content {
+    font-family: 'Georgia', serif; /* Example font */
+    font-size: 3rem; /* Adjust size for main text */
+    color: white; /* Change color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional shadow effect */
+}
+
+//* Header Banner */
+.header-banner .banner-content p {
+    font-family: 'Verdana', sans-serif; /* Different font for subtitle */
+    font-size: 1.5rem; /* Adjust size for subtitle */
+    color: #ffffff; /* Color for subtitle */
+    margin-top: 10px;
+}
+
+/* Header Banner */
+.header-banner {
+    position: relative;
+    height: 150px; /* Adjust height as needed */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional for readability */
+}
+
+/* Video Background */
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire area */
+    z-index: -1; /* Places the video behind the text */
+}
+
+/* Banner Content */
+.banner-content {
+    position: relative; /* Keeps text on top of the video */
+    text-align: center;
+    z-index: 1;
+}
+.header-video img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+/* Footer Styling */
+/* Styles the general footer container */
+footer {
+    text-align: center; /* Centers text within the footer */
+    background-color: #1e1e1e; /* Dark background for footer */
+    color: #bbb; /* Light gray text color */
+    padding: 10px; /* Adds space inside the footer container */
+    margin-top: 20px; /* Creates space above the footer */
+}
+
+/* Custom Footer Container */
+/* Adds a sectioned area for additional footer content */
+.custom-footer {
+    display: flex; /* Creates a flexible layout for sections */
+    justify-content: space-around; /* Spaces sections evenly */
+    background-color: #333; /* Slightly darker background for differentiation */
+    padding: 20px 10px; /* Adds padding inside the container */
+    color: white; /* Text color for all content inside the footer */
+    font-size: 14px; /* Font size for the text */
+}
+
+/* Footer Section Styling */
+/* Styles individual sections within the footer */
+.footer-section {
+    text-align: left; /* Aligns text to the left within each section */
+    max-width: 300px; /* Limits the width of each section */
+}
+
+/* Section Headings */
+/* Styles the headings (e.g., Contact, FAQ, Blog) */
+.footer-section h3 {
+    font-size: 16px; /* Font size for headings */
+    margin-bottom: 10px; /* Adds space below each heading */
+    color: #f4f4f4; /* Slightly lighter color for headings */
+}
+
+/* Paragraphs and Lists */
+/* Removes default styling for paragraphs and lists */
+.footer-section p,
+.footer-section ul {
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+    list-style: none; /* Removes bullet points from lists */
+}
+
+/* List Items */
+/* Adds spacing for list items within sections */
+.footer-section ul li {
+    margin: 5px 0; /* Adds vertical space between list items */
+}
+
+/* Links Styling */
+/* Styles links within the footer */
+.footer-section a {
+    color: #bbb; /* Light gray color for links */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover Effect for Links */
+/* Changes link color when hovered over */
+.footer-section a:hover {
+    color: #fff; /* Changes link color to white */
+}
+.vertical-nav {
+    position: absolute; /* Ensures it's placed relative to its container */
+    right: 23%; /* Aligns it to the right of the container */
+    top: 48%; /* Centers vertically */
+    transform: translateY(-30%); /* Adjusts for perfect centering */
+    background-color: #1e1e1e; /* Background color for the nav */
+    padding: 20px 10px; /* Adds spacing around the nav */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow */
+}
+
+
+
+.vertical-nav button:hover {
+    background-color: #555; /* Changes background color on hover */
+}
+.vertical-nav button {
+    display: block; /* Makes the buttons stack vertically */
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Removes borders */
+    padding: 20px 30px; /* Increases padding for larger buttons */
+    margin: 15px 0; /* Adds spacing between buttons */
+    text-align: center; /* Centers text */
+    font-size: 48px; /* Increases font size */
+    cursor: pointer; /* Changes cursor to pointer */
+    border-radius: 10px; /* Adds rounded corners to buttons */
+    transition: background-color 0.3s; /* Smooth hover effect */
+    width: 100%; /* Optional: Makes buttons span the width of the nav */
+	height: 200px
+}
+@media (max-width: 768px) {
+    .vertical-nav {
+        position: static; /* Keeps the nav visible */
+        width: 100%; /* Makes it full width */
+        padding: 10px;
+    }
+
+    .vertical-nav button {
+        width: 100%; /* Makes buttons take up full width */
+        margin: 10px 0; /* Adjusts spacing for smaller screens */
+        font-size: 18px; /* Reduces font size for smaller screens */
+    }
+}
+.seal-box {
+    margin: 0 auto; /* Centers the box horizontally in its container */
+    transform: translateX(-40px); /* Move the seal box 50px to the right */
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 35px;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.seal-box img {
+    width: 750px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .seal-box {
+        width: 300px;
+        height: 300px;
+        transform: translateX(10px); /* Adjust smaller screens offset */
+    }
+}
+
+.main-video {
+    display: flex;
+	width: 400px; /* Adjust width */
+    height: 400px; /* Adjust height */
+
+	justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main-video img {
+    max-width: 100%;
+	height: 500%
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* Product Section */
+.product {
+    display: grid;
+	transform: translateX(-35px); /* Move the seal box 50px to the right */
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    max-width: 815px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.main-container {
+    display: flex; /* Allows intro and aside to sit next to each other */
+    justify-content: space-between; /* Pushes aside to the right */
+    align-items: flex-start; /* Aligns both elements at the top */
+}
+
+.intro {
+    flex: 3; /* Takes up most of the space */
+    max-width: 750px;
+    height: auto; /* Adjust height dynamically */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.sidebar {
+    flex: 1; /* Smaller portion of the space */
+    width: 300px; /* Fixed width */
+    height: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 20px; /* Space between intro and sidebar */
+}
+
+
+.banner-image {
+    flex-shrink: 0; /* Ensures the image keeps its size */
+    padding-right: 10px; /* Adds spacing from the right edge */
+    align-self: flex-end; /* Aligns the image to the bottom of the container */
+    margin-left: auto; /* Pushes the image to the right */
+}
+
+.banner-image img {
+    max-height: 600px; /* Limits the image height */
+    width: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+}
+
+
+
+
+
+.details {
+    grid-column: 2 / 3; /* Place in the second column */
+    grid-row: 1 / span 2; /* Span across both rows */
+}
+
+/* Main Video/Image */
+
+
+/* Thumbnails */
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px; /* Add space above the thumbnails */
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+    border-color: #007bff;
+}
+.city_thumbnails img:hover {
+	transform: scale(1.1);
+    border-color: #007bff;
+}
+/* Details Section */
+.details {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.details select,
+.details button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.details button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #bbb;
+    padding: 10px;
+    margin-top: 20px;
+}
